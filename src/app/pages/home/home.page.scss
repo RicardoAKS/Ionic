@@ -1,0 +1,28 @@
+.alert-wrapper {
+    background: #e5e5e5;
+}
+
+.my-custom-class .alert-wrapper {
+    background: #e5e5e5;
+}
+
+.title{
+    text-align: center;
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.title{
+    background-color: lime;
+    padding: 20px;
+    color:white;
+    border-radius: 20px;
+}
+
+.body{
+    background-color: green;
+}

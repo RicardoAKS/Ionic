@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-refresher slot="fixed" (ionRefresh)="doRefresh($event)">
+    <ion-refresher-content></ion-refresher-content>
+  </ion-refresher>
+  <div class="ion-padding">
+    <h1 class="title">OLA,<br> SEJA BEM VINDO!</h1>
+    <div class="buttons">
+      <ion-button color="success" class="buttonTab" expand="full" size="large" (click)="tabAlert()">Tabs</ion-button>
+      <ion-button color="success" class="buttonSearch" expand="full" size="large" (click)="searchAlert()" >Search</ion-button>
+    </div>
+  </div>
+</ion-content>
